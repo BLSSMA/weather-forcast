@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather Search Project</title>
+  </head>
+  <div class="app-background">
+    <body>
+      <main>
+        <h1>
+          <form id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              required
+              class="search-entry"
+              id="search-entry"
+            />
+            <input
+              type="submit"
+              placeholder="Search"
+              class="search-button"
+              id="search-button"
+            />
+          </form>
+        </h1>
+
+        <h2 class="current-city" id="current-city"><strong></strong></h2>
+
+        <p id="current-date" class="current-date"></p>
+        <span id="condition"></span>
+        <br />
+        humidity:<span class="percentages" id="humidity"></span>, wind:<span
+          class="percentages"
+          id="wind"
+        ></span>
+        <br />
+        <div class="container">
+          <div id="icon"></div>
+          <span class="current-temperature" id="current-temperature"></span>℉
+        </div>
+        <br />
+      </main>
+      <f
+        >This project was coded by
+        <a
+          href="https://www.shecodes.io/graduates/123692-blossom-armstrong"
+          target="_blank"
+          >Blossom Armstrong</a
+        >, Code Hosted on:
+        <a href="https://github.com/BLSSMA" target="_blank">Gethub</a>, and
+        Website Hosted by:
+        <a
+          href="https://www.netlify.com/?qgad=669861900644&qgterm=netlify&utm_source=google&utm_term=netlify&utm_campaign=GS_Connect:+Netlify+Brand&utm_medium=paid_search&hsa_acc=3888979506&hsa_cam=20355763121&hsa_grp=154990107550&hsa_ad=669861900644&hsa_src=g&hsa_tgt=kwd-309804753741&hsa_kw=netlify&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw3NyxBhBmEiwAyofDYYyjKrQS1napUwpjoXJG5C_jOcvZxcGr3-M3BuRq77TlqDx9w2gLkBoCVzcQAvD_BwE"
+          target="_blank"
+          >Netlify</a
+        ></f
+      >
+    </body>
+  </div>
+  <script src="src/index.js"></script>
+</html>
