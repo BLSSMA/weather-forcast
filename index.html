@@ -21,41 +21,59 @@
   </head>
   <div class="app-background">
     <body>
-      <main>
-        <h1>
-          <form id="search-form">
-            <input
-              type="search"
-              placeholder="Enter a city.."
-              required
-              class="search-entry"
-              id="search-entry"
-            />
-            <input
-              type="submit"
-              placeholder="Search"
-              class="search-button"
-              id="search-button"
-            />
-          </form>
-        </h1>
+      <h1>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-entry"
+            id="search-entry"
+          />
+          <input
+            type="submit"
+            placeholder="Search"
+            class="search-button"
+            id="search-button"
+          />
+        </form>
+      </h1>
 
-        <h2 class="current-city" id="current-city"><strong></strong></h2>
+      <h2 class="current-city" id="current-city"><strong></strong></h2>
 
-        <p id="current-date" class="current-date"></p>
-        <span id="condition"></span>
-        <br />
-        humidity:<span class="percentages" id="humidity"></span>, wind:<span
-          class="percentages"
-          id="wind"
-        ></span>
-        <br />
-        <div class="container">
-          <div id="icon"></div>
-          <span class="current-temperature" id="current-temperature"></span>℉
+      <p id="current-date" class="current-date"></p>
+      <span id="condition"></span>
+      <br />
+      humidity:<span class="percentages" id="humidity"></span>, wind:<span
+        class="percentages"
+        id="wind"
+      ></span>
+      <br />
+      <div class="container">
+        <div id="icon"></div>
+        <span class="current-temperature" id="current-temperature"></span>℉
+      </div>
+      <hr />
+      <br />
+      <div class="weather-forcast">
+        <div class="row">
+          <div class="col-2">
+            <div class="futureDay"><em>thursday</em></div>
+
+            <div class="futureIcon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                width="55"
+              />
+            </div>
+            <div class="futureTemps">
+              <span class="futureHigh">56℉</span>
+              <span class="futureLow">34℉</span>
+            </div>
+          </div>
         </div>
-        <br />
-      </main>
+      </div>
+
       <f
         >This project was coded by
         <a
