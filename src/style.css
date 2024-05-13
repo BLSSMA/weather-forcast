@@ -75,27 +75,27 @@ hr{
 
 .forecast{
     display:flex;
-    align-content: left;
+    align-content: center;
     margin-bottom:20px;    
     justify-content: space-between;
-    
 }
-.futureDay{
+.weather-forecast-date{
     font-size: 16px;
     opacity: 60%;
 }
-.futureLow{
+.weather-forecast-icon {
+    width: 58px;
+   
+}
+.weather-forecast-temperature-min{
     opacity: 50%;
-    font-size: 13px;
+    font-size: 15px;
 }
-.futureHigh{
-    font-size: 13px;
+.weather-forecast-temperature-max{
+    font-size: 18px;
     font-weight: bolder;
+            color: crimson;
 }
-strong{
-        color: crimson;
-}
-
 
 a {
     color: crimson;
