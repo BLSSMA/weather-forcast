@@ -63,6 +63,10 @@ f {
 
 }
 
+.current-date{
+    font-size: 18px;
+}
+
 hr{
     border:1px solid #f9f7fe;
 }
